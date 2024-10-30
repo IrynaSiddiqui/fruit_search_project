@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+:focus {
+ /* TODO */
+}
+
+/* Apply a gradient background to the whole page */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(90deg, #d9bc17, #e35d0f); /* Gold to dark orang gradient */
+}
+
+input {
+ /* TODO */
+}
+
+/* Center the search container */
+.search-container {
+  position: relative;
+  width: 300px;
+}
+.search-container input,
+.search-container .suggestions {
+  /* TODO */
+}
+
+/* Style the search bar */
+.search-container input[type='text'] {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: rgba(246, 185, 70, 0.8); /* Orange with some transparency */
+  color: black ; /* Black text color */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2) 
+}
+.search-container .suggestions {
+   /* TODO */
+}
+
+ul {
+  /* TODO */
+}
+
+input {
+   /* TODO */
+}
+
+/* Style the suggestions drop down */
+.suggestions ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: rgba(246, 185, 70); 
+  border-radius: 0 0 5px 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none; /* Hidden initially */
+}
+
+.suggestions.has-suggestions ul {
+  display: block; /* Show when there are suggestions */
+}
+
+.suggestions ul li {
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.suggestions ul li:hover {
+  background: rgb(222, 69, 14); /* Dark orande on hover */
+}
