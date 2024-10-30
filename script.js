@@ -29,7 +29,7 @@ function searchHandler(event) {
 }
 
 //Function to display the results in the drop down
-function showSuggestions(results) {
+function showSuggestions(results, inputVal) {
 	const suggestionsList = document.querySelector('.suggestions ul'); // I have this variable at the beginning ??? 
 	suggestionsList.innerHTML = ''; // Clear any previous suggestions
 
