@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-:focus {
-
-}
-
 /* Apply a gradient background to the whole page */
 body {
   margin: 0;
@@ -17,18 +13,10 @@ body {
   background: linear-gradient(90deg, #d9bc17, #e35d0f); /* Gold to dark orang gradient */
 }
 
-input {
- /* TODO */
-}
-
 /* Center the search container */
 .search-container {
   position: relative;
   width: 300px;
-}
-.search-container input,
-.search-container .suggestions {
-  /* TODO */
 }
 
 /* Style the search box */
@@ -47,19 +35,6 @@ input {
 
 .search-container input[type='text']:focus {
   border: 2px solid rgb(255, 81, 0);
-}
-
-.search-container .suggestions {
-   /* TODO */
-}
-
-ul {
-  /* TODO */
-}
-
-
-input {
-   /* TODO */
 }
 
 /* Style the suggestions drop down */
@@ -89,4 +64,10 @@ input {
 
 .suggestions ul li:hover {
   background: rgb(222, 69, 14); /* Dark orande on hover */
+}
+
+
+.highlight {
+  font-weight: bold;
+  color: black;
 }
